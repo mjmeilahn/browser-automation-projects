@@ -1,4 +1,5 @@
 
+// RUN THIS TEST IN /TESTS FOLDER
 browser
     .setViewportSize({
         height: 682,

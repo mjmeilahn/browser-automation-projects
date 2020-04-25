@@ -1,16 +1,20 @@
 
+// RUN THIS TEST IN /TESTS FOLDER
+
 describe('Verify WebDriver University links on Homepage work', () => {
-    it('should link to Contact Us page when its link is clicked', function () {
+    it('should link to Contact Us page when its button is clicked', done => {
         return browser
-                .setViewportSize({
-                    height: 682,
-                    width: 1200
-                })
-                .url('https://webdriveruniversity.com')
-                .getTitle().then(title => {
-                    console.log('Title is: ' + title)
-                })
+                .url('http://webdriveruniversity.com')
                 .click('#contact-us')
-                .pause(10000)
+                .pause(3000)
+    });
+
+    it('should link to Login page when its button is clicked', done => {
+        browser
+            .url('http://webdriveruniversity.com')
+            .click('#login-portal')
+
+        const title = browser.getTitle()
+        console.log('Title is: ' + title);
     });
 });
