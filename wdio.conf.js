@@ -1,3 +1,12 @@
+
+let baseURL;
+
+if (process.env.SERVER === 'PROD') {
+    baseURL = 'https://www.google.com';
+} else {
+    baseURL = 'http://www.webdriveruniversity.com';
+}
+
 exports.config = {
     
     //
@@ -58,7 +67,7 @@ exports.config = {
     sync: true,
     //
     // Level of logging verbosity: silent | verbose | command | data | result | error
-    logLevel: 'silent',
+    logLevel: 'verbose',
     //
     // Enables colors for log output.
     coloredLogs: true,
@@ -77,7 +86,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'www.webdriveruniversity.com',
+    baseUrl: baseURL,
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
