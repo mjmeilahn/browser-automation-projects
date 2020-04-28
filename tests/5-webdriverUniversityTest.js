@@ -1,6 +1,6 @@
 // const assert = require('assert');
-const expect = require('chai').expect;
-const should = require('chai').should();
+// const expect = require('chai').expect;
+// const should = require('chai').should();
 
 
 // RUN THIS TEST IN /TESTS FOLDER
@@ -10,7 +10,7 @@ describe('Verify WebDriver University links on Homepage work', () => {
         browser
             .url('/')
             .click('#contact-us')
-            .pause(3000);
+            .pause(1000);
     });
 
     it('should link to Login page when its button is clicked', done => {
