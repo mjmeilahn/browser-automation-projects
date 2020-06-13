@@ -3,7 +3,7 @@
 // const should = require('chai').should();
 
 
-// TO RUN A SPECIFIC TEST: npm test -- --spec=tests/5-webdriverUniversityTest.js
+// TO RUN A SPECIFIC TEST: npm test -- --spec=tests/5-tabs.js
 
 describe('Verify WebDriver University links on Homepage work', () => {
     it('should link to Contact Us page when its button is clicked', done => {
