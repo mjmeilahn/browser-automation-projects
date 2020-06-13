@@ -30,7 +30,7 @@ describe('Test whether hidden elements exist', () => {
 
     it('No such element should return false', () => {
         const el = browser.isExisting('#no-such-element');
-        el.should.equal(true);
+        el.should.equal(false);
     });
 
 
@@ -38,17 +38,17 @@ describe('Test whether hidden elements exist', () => {
     // IS VISIBLE
     it('Should be false, set to display: none', () => {
         const el = browser.isVisible('#not-displayed');
-        el.should.equal(true);
+        el.should.equal(false);
     });
 
     it('Should be false, set to visibility: hidden', () => {
         const el = browser.isVisible('#visibility-hidden');
-        el.should.equal(true);
+        el.should.equal(false);
     });
 
     it('Should be false, set to opacity: 0', () => {
         const el = browser.isVisible('#zero-opacity');
-        el.should.equal(true);
+        el.should.equal(false);
     });
 
     it('Header text always visible & should return true', () => {
@@ -58,6 +58,19 @@ describe('Test whether hidden elements exist', () => {
 
     it('No such element should return false', () => {
         const el = browser.isVisible('#no-such-element');
+        el.should.equal(false);
+    });
+
+
+
+    // VISIBLE WITHIN VIEWPORT
+    it('should not be visible within current viewport', () => {
+        const el = browser.isVisibleWithinViewport('#not-displayed');
+        el.should.equal(false);
+    });
+
+    it('should be visible within current viewport', () => {
+        const el = browser.isVisibleWithinViewport('h1');
         el.should.equal(true);
     });
 });
