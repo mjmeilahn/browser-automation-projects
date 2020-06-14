@@ -1,127 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Video_test" timestamp="2020-06-14T09:20:52" time="60.144" tests="2" failures="0" errors="0" skipped="0">
+  <testsuite name="Test_whether_hidden_elements_exist" timestamp="2020-06-14T10:32:51" time="2.38" tests="12" failures="0" errors="1" skipped="0">
     <properties>
-      <property name="specId" value="2a2fa079d5cebcdc5471721072eff9fe"/>
-      <property name="suiteName" value="Video test"/>
+      <property name="specId" value="a0aee87adc50b811b6620fb2a76d5f77"/>
+      <property name="suiteName" value="Test whether hidden elements exist"/>
       <property name="capabilities" value="chrome"/>
-      <property name="file" value="./tests/15-injectJS.js"/>
+      <property name="file" value="./tests/09-verify-elements.js"/>
     </properties>
-    <testcase classname="chrome.Video_test" name="video_should_be_paused_on_page_load" time="54.662">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_display_none_Still_exists_in_DOM_return_true" time="1.334">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/url - {"url":"https://www.w3schools.com/html/html5_video.asp"}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":750,"width":1200}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":627,"screenWidth":1200}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (() => {\n        console.log(\"I'm in the browser console!\");\n\n        const video = document.querySelector('#video1');\n        return video.paused;\n    }).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"id","value":"not-displayed"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[{"ELEMENT":"0.6485909849812508-1"}]}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Video_test" name="should_be_re_sizeable" time="5.481">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_visibility_hidden_Still_exists_in_DOM_return_true" time="0.099">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/url - {"url":"https://www.w3schools.com/html/html5_video.asp"}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"height":794,"width":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/window/current/size - {"width":1400,"height":823}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":{"screenHeight":671,"screenWidth":1400}}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e/execute - {"script":"return (() => {\n            const video = document.querySelector('#video1');\n            return video.style.width = '300px';\n        }).apply(null, arguments)","args":[]}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":"300px"}
-COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/bb50059df90d84b4dcd9d8dac2fffb2e - {}
-RESULT: {"sessionId":"bb50059df90d84b4dcd9d8dac2fffb2e","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"id","value":"visibility-hidden"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[{"ELEMENT":"0.20585393678158415-1"}]}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_opacity_0_Still_exists_in_DOM_return_true" time="0.091">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"id","value":"zero-opacity"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[{"ELEMENT":"0.5758468173636522-1"}]}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Header_text_always_visible_should_return_true" time="0.087">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"css selector","value":"h1"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[{"ELEMENT":"0.3275738687283183-1"}]}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="No_such_element_should_return_false" time="0.071">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"id","value":"no-such-element"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[]}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_display_none" time="0.087">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"id","value":"not-displayed"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[{"ELEMENT":"0.7974061125595533-1"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/element/0.7974061125595533-1/displayed - {}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":false}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_visibility_hidden" time="0.097">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"id","value":"visibility-hidden"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[{"ELEMENT":"0.15348148004176387-1"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/element/0.15348148004176387-1/displayed - {}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":false}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_opacity_0" time="0.109">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"id","value":"zero-opacity"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[{"ELEMENT":"0.9380311736366946-1"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/element/0.9380311736366946-1/displayed - {}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":false}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Header_text_always_visible_should_return_true" time="0.114">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"css selector","value":"h1"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[{"ELEMENT":"0.8053481364687505-1"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/element/0.8053481364687505-1/displayed - {}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":true}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="No_such_element_should_return_false" time="0.093">
+      <error message="expected false to equal true"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/elements - {"using":"id","value":"no-such-element"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[]}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+AssertionError: expected false to equal true
+    at Context.it (/Users/sysadmin/Desktop/dev/automation-testing-projects/tests/09-verify-elements.js:62:19)
+    at new Promise (<anonymous>)
+    at new F (/Users/sysadmin/Desktop/dev/automation-testing-projects/node_modules/core-js/library/modules/_export.js:36:28)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="should_not_be_visible_within_current_viewport" time="0.108">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/execute - {"script":"return !!document.evaluate;","args":[]}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/execute - {"script":"return (function executeClientSide(fn, sArr, args) {\n var cb = arguments[arguments.length - 1];\n var i = 0;\n var sArgs = [];\n var use, value, xp, cs, tn, res, j, arg;\n\n if (typeof document.querySelect ... (2627 more bytes)","args":[]}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[false]}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="should_be_visible_within_current_viewport" time="0.087">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/execute - {"script":"return !!document.evaluate;","args":[]}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/execute - {"script":"return (function executeClientSide(fn, sArr, args) {\n var cb = arguments[arguments.length - 1];\n var i = 0;\n var sArgs = [];\n var use, value, xp, cs, tn, res, j, arg;\n\n if (typeof document.querySelect ... (2626 more bytes)","args":[]}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":[true]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2/screenshot - {}
+RESULT: null
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/cb912d05e8b42e076b1cf00887d7b4e2 - {}
+RESULT: {"sessionId":"cb912d05e8b42e076b1cf00887d7b4e2","status":0,"value":null}
 ]]>
       </system-out>
     </testcase>
