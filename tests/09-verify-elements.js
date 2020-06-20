@@ -56,10 +56,9 @@ describe('Test whether hidden elements exist', () => {
         el.should.equal(true);
     });
 
-    // MANUALLY FAIL THIS TEST
     it('No such element should return false', () => {
         const el = browser.isVisible('#no-such-element');
-        el.should.equal(true);
+        el.should.equal(false);
     });
 
 
