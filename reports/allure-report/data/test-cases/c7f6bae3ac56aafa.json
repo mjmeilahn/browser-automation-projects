@@ -1,0 +1,143 @@
+{
+  "uid" : "c7f6bae3ac56aafa",
+  "name" : "Should be false, set to visibility: hidden",
+  "fullName" : "Test whether hidden elements exist.Should be false, set to visibility: hidden",
+  "historyId" : "b9c3a8cca3f91f6fe2cfe74aa0828bd5",
+  "time" : {
+    "start" : 1592693951641,
+    "stop" : 1592693951720,
+    "duration" : 79
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/121ab279eccee5f7e56e26f6401b9ba1/url",
+      "time" : {
+        "start" : 1592693951641,
+        "stop" : 1592693951692,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b105b6e289bd437",
+        "name" : "Request",
+        "source" : "2b105b6e289bd437.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "3875ff452fda66df",
+        "name" : "Response",
+        "source" : "3875ff452fda66df.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/121ab279eccee5f7e56e26f6401b9ba1/elements",
+      "time" : {
+        "start" : 1592693951697,
+        "stop" : 1592693951707,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa97f1b11c66a91a",
+        "name" : "Request",
+        "source" : "fa97f1b11c66a91a.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "4298cfbab74ebd14",
+        "name" : "Response",
+        "source" : "4298cfbab74ebd14.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/121ab279eccee5f7e56e26f6401b9ba1/element/0.014165558620886198-1/displayed",
+      "time" : {
+        "start" : 1592693951707,
+        "stop" : 1592693951719,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dfc1299fd08b6fa7",
+        "name" : "Response",
+        "source" : "dfc1299fd08b6fa7.json",
+        "type" : "application/json",
+        "size" : 92
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "testClass",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should be false, set to visibility: hidden"
+  }, {
+    "name" : "package",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7f6bae3ac56aafa.json",
+  "parameterValues" : [ "chrome" ]
+}

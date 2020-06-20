@@ -1,0 +1,149 @@
+{
+  "uid" : "219f2370225777d5",
+  "name" : "should be visible within current viewport",
+  "fullName" : "Test whether hidden elements exist.should be visible within current viewport",
+  "historyId" : "288b13c918aeb4a34d1d900189e9eadd",
+  "time" : {
+    "start" : 1592693952032,
+    "stop" : 1592693952139,
+    "duration" : 107
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/121ab279eccee5f7e56e26f6401b9ba1/url",
+      "time" : {
+        "start" : 1592693952033,
+        "stop" : 1592693952113,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "127f49cffd22b2bd",
+        "name" : "Request",
+        "source" : "127f49cffd22b2bd.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "867e51a30f44926f",
+        "name" : "Response",
+        "source" : "867e51a30f44926f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/121ab279eccee5f7e56e26f6401b9ba1/execute",
+      "time" : {
+        "start" : 1592693952116,
+        "stop" : 1592693952129,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "507bdf3267a50019",
+        "name" : "Request",
+        "source" : "507bdf3267a50019.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "82e1624b888f58ac",
+        "name" : "Response",
+        "source" : "82e1624b888f58ac.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/121ab279eccee5f7e56e26f6401b9ba1/execute",
+      "time" : {
+        "start" : 1592693952129,
+        "stop" : 1592693952139,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b58c927abc8ff06",
+        "name" : "Request",
+        "source" : "b58c927abc8ff06.json",
+        "type" : "application/json",
+        "size" : 2978
+      }, {
+        "uid" : "281667b408ab4b68",
+        "name" : "Response",
+        "source" : "281667b408ab4b68.json",
+        "type" : "application/json",
+        "size" : 107
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "testClass",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be visible within current viewport"
+  }, {
+    "name" : "package",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "219f2370225777d5.json",
+  "parameterValues" : [ "chrome" ]
+}

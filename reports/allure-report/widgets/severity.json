@@ -1,0 +1,101 @@
+[ {
+  "uid" : "219f2370225777d5",
+  "name" : "should be visible within current viewport",
+  "time" : {
+    "start" : 1592693952032,
+    "stop" : 1592693952139,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9188e8a2cd5f5d8",
+  "name" : "Should be false, set to opacity: 0",
+  "time" : {
+    "start" : 1592693951720,
+    "stop" : 1592693951797,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5f607d8185a1754",
+  "name" : "No such element should return false",
+  "time" : {
+    "start" : 1592693951884,
+    "stop" : 1592693951943,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20d3e7333ddce7b4",
+  "name" : "Set to display: none; Still exists in DOM return true",
+  "time" : {
+    "start" : 1592693949509,
+    "stop" : 1592693951265,
+    "duration" : 1756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7f6bae3ac56aafa",
+  "name" : "Should be false, set to visibility: hidden",
+  "time" : {
+    "start" : 1592693951641,
+    "stop" : 1592693951720,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4241acd66cc0c330",
+  "name" : "should not be visible within current viewport",
+  "time" : {
+    "start" : 1592693951944,
+    "stop" : 1592693952032,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "900a1953f580824b",
+  "name" : "Header text always visible & should return true",
+  "time" : {
+    "start" : 1592693951797,
+    "stop" : 1592693951884,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5ad634b8e7c8ab5",
+  "name" : "Set to opacity: 0; Still exists in DOM return true",
+  "time" : {
+    "start" : 1592693951338,
+    "stop" : 1592693951405,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d73245e586bbee87",
+  "name" : "Set to visibility: hidden; Still exists in DOM return true",
+  "time" : {
+    "start" : 1592693951265,
+    "stop" : 1592693951337,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2651e401b8b92b88",
+  "name" : "Should be false, set to display: none",
+  "time" : {
+    "start" : 1592693951565,
+    "stop" : 1592693951640,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
