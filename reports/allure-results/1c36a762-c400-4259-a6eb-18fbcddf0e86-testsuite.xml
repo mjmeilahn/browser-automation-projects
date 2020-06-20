@@ -1,0 +1,477 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592692980474' stop='1592692982990'>
+    <name>Test whether hidden elements exist</name>
+    <title>Test whether hidden elements exist</title>
+    <test-cases>
+        <test-case start='1592692980474' status='passed' stop='1592692982167'>
+            <name>Set to display: none; Still exists in DOM return true</name>
+            <title>Set to display: none; Still exists in DOM return true</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692980477' status='passed' stop='1592692982142'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d59cba92-64a4-43c0-a86e-ce80a4348cc9-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='56e282b0-6341-42fd-bb12-29e5bd921392-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982147' status='passed' stop='1592692982164'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4e3eb036-bbf1-433f-be93-b28c8c6005e3-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='1f890455-d86d-4cbb-a0db-7ee7f078221c-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982167' status='passed' stop='1592692982242'>
+            <name>Set to visibility: hidden; Still exists in DOM return true</name>
+            <title>Set to visibility: hidden; Still exists in DOM return true</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982168' status='passed' stop='1592692982225'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2830574b-137a-4a30-bff4-be5b374e5776-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='a1f87462-67b5-4f3a-a276-e4c42c5229fc-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982226' status='passed' stop='1592692982242'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cf5f78f0-0d8a-419a-8555-5f45fb78faca-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='f8735cdf-e242-4159-80b5-08b563d24c14-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982242' status='passed' stop='1592692982310'>
+            <name>Set to opacity: 0; Still exists in DOM return true</name>
+            <title>Set to opacity: 0; Still exists in DOM return true</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982243' status='passed' stop='1592692982288'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='addf56b7-e485-48bf-b4b6-af2c2578ae73-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='86d6013e-4305-4d01-bab8-bd30353fbe7f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982290' status='passed' stop='1592692982310'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2f18d926-1965-4f24-b702-4560c4d49785-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='2ac4f1c7-ba4d-4c92-9804-86062357f7a4-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982311' status='passed' stop='1592692982373'>
+            <name>Header text always visible &amp; should return true</name>
+            <title>Header text always visible &amp; should return true</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982312' status='passed' stop='1592692982358'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='63ad941f-b140-4359-a180-8d31bbd64055-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='c3ff179e-1a3a-4d2b-a27c-6bb770dab0dd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982360' status='passed' stop='1592692982372'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3df46660-679c-4164-822f-f1661143308b-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='e6547d3d-629d-4d8f-834a-187550b23b44-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982374' status='passed' stop='1592692982450'>
+            <name>No such element should return false</name>
+            <title>No such element should return false</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982374' status='passed' stop='1592692982435'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8dcfdece-e043-460d-becf-ac159f5d6a5d-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='e67e3c3a-0a0f-429f-8f3a-d6f01fdf3350-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982437' status='passed' stop='1592692982450'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='dd7e6398-e2a3-4b3b-ba2c-307b4a55c4f4-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='403e407e-1d10-4ea4-9c0f-339da75fd0f1-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982451' status='passed' stop='1592692982527'>
+            <name>Should be false, set to display: none</name>
+            <title>Should be false, set to display: none</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982452' status='passed' stop='1592692982500'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7b1bfe9f-298f-4f41-aeeb-61c3ad416433-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='e155776b-bccd-406c-9ae1-721ac73b0402-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982503' status='passed' stop='1592692982514'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a7c4fcbb-7b49-4a3d-9b4f-81d63096ba4c-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='b5ecafc5-5f62-4d57-902d-c689aa29158d-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982514' status='passed' stop='1592692982526'>
+                    <name>GET /wd/hub/session/483bd40dbd74134c9cb57b956461f210/element/0.26226523081987585-1/displayed</name>
+                    <title>GET /wd/hub/session/483bd40dbd74134c9cb57b956461f210/element/0.26226523081987585-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='f342a96e-cf1e-4a8c-be43-838c5c90b487-attachment.json' type='application/json' size='92'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982527' status='passed' stop='1592692982613'>
+            <name>Should be false, set to visibility: hidden</name>
+            <title>Should be false, set to visibility: hidden</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982528' status='passed' stop='1592692982583'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dbb46478-b6c5-4d21-94a4-dbf3a61a37f0-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='fc713d27-86af-4545-8b53-e1e0c48275e9-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982585' status='passed' stop='1592692982594'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7837fd87-bd28-45cd-b5d5-da7d9c00f501-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='fa5ee855-e7ba-4bf4-9353-8fd2fc5ef04f-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982594' status='passed' stop='1592692982609'>
+                    <name>GET /wd/hub/session/483bd40dbd74134c9cb57b956461f210/element/0.5972238467266213-1/displayed</name>
+                    <title>GET /wd/hub/session/483bd40dbd74134c9cb57b956461f210/element/0.5972238467266213-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='974b0c90-cb48-4872-8561-1d72624fee10-attachment.json' type='application/json' size='92'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982614' status='passed' stop='1592692982688'>
+            <name>Should be false, set to opacity: 0</name>
+            <title>Should be false, set to opacity: 0</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982614' status='passed' stop='1592692982664'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7d54cd36-5d11-4b5e-b007-ce8099addcbc-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='abf96c99-3779-4441-889b-f412ec8ae94e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982666' status='passed' stop='1592692982676'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6f7d1102-b03b-4c1f-b4c1-9a42a51ded29-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='2601e561-8baa-4a30-87ef-db2022418e51-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982676' status='passed' stop='1592692982688'>
+                    <name>GET /wd/hub/session/483bd40dbd74134c9cb57b956461f210/element/0.5833334059845825-1/displayed</name>
+                    <title>GET /wd/hub/session/483bd40dbd74134c9cb57b956461f210/element/0.5833334059845825-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='98f4e765-78de-402c-8367-ed351efffced-attachment.json' type='application/json' size='92'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982688' status='passed' stop='1592692982754'>
+            <name>Header text always visible &amp; should return true</name>
+            <title>Header text always visible &amp; should return true</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982689' status='passed' stop='1592692982725'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f216065c-dea2-46e8-8243-afa9836b1b10-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='c32a5b8c-6998-47a4-98d6-0bd2b8194326-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982729' status='passed' stop='1592692982742'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6614f10b-e8c8-43c1-80af-5a4cc8268847-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='26e6ddd3-1b87-44a9-a9aa-e6e60ae89e39-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982742' status='passed' stop='1592692982754'>
+                    <name>GET /wd/hub/session/483bd40dbd74134c9cb57b956461f210/element/0.7905886553746493-1/displayed</name>
+                    <title>GET /wd/hub/session/483bd40dbd74134c9cb57b956461f210/element/0.7905886553746493-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='4b2db649-031f-4e7b-95d7-6e435b1d5e36-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982754' status='passed' stop='1592692982811'>
+            <name>No such element should return false</name>
+            <title>No such element should return false</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982755' status='passed' stop='1592692982799'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6f4015ee-1f0b-4db7-973f-e0e72b7b7f64-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='8f7fd188-1bab-42a9-83e7-486557388856-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982801' status='passed' stop='1592692982810'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9cc0697d-0a39-47b7-b6a5-78a5a7209f0f-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='4ba4d887-4844-4f1a-8a32-ffc4f7b9f9a5-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982812' status='passed' stop='1592692982890'>
+            <name>should not be visible within current viewport</name>
+            <title>should not be visible within current viewport</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982812' status='passed' stop='1592692982853'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2f94b33e-493b-49a7-b5dc-214f65fe93e3-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='7ae5ea36-f764-4297-b677-04b39e02acfa-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982868' status='passed' stop='1592692982883'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/execute</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='a8867f16-86b3-4d4b-bbf5-76606a884667-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='3ab2e492-72ed-4df3-8628-9e146a8243e3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982883' status='passed' stop='1592692982890'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/execute</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='64fb6121-ee92-40e3-977b-e921e145f4de-attachment.json' type='application/json' size='2979'/>
+                        <attachment title='Response' source='b33135ce-1f87-41c4-85b3-aedcb87f6cae-attachment.json' type='application/json' size='108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592692982891' status='passed' stop='1592692982990'>
+            <name>should be visible within current viewport</name>
+            <title>should be visible within current viewport</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1592692982891' status='passed' stop='1592692982969'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/url</title>
+                    <attachments>
+                        <attachment title='Request' source='434e238f-d800-4cac-ba62-80cd9db56ffe-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='8cec83ac-16bd-44fe-97ea-f440535a762f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982971' status='passed' stop='1592692982981'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/execute</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='99fe0f9d-db54-40dd-a5c7-eff764c5fb84-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='b3289396-fb23-4cdb-a34e-a48c005f0b18-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592692982982' status='passed' stop='1592692982990'>
+                    <name>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/execute</name>
+                    <title>POST /wd/hub/session/483bd40dbd74134c9cb57b956461f210/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='48663e8e-6271-40f5-aa7b-ac89caed1405-attachment.json' type='application/json' size='2978'/>
+                        <attachment title='Response' source='d8cabef7-d901-43e3-96f9-250556187f0e-attachment.json' type='application/json' size='107'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
