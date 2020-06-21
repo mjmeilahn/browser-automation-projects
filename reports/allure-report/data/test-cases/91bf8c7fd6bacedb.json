@@ -1,0 +1,122 @@
+{
+  "uid" : "91bf8c7fd6bacedb",
+  "name" : "Set to opacity: 0; Still exists in DOM return true",
+  "fullName" : "Test whether hidden elements exist.Set to opacity: 0; Still exists in DOM return true",
+  "historyId" : "336deac959f1217b845f2d5014b22b78",
+  "time" : {
+    "start" : 1592759408465,
+    "stop" : 1592759408532,
+    "duration" : 67
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/11eff67cb0e33331f99f0514308035fc/url",
+      "time" : {
+        "start" : 1592759408466,
+        "stop" : 1592759408514,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d7faa76f8e23e03",
+        "name" : "Request",
+        "source" : "1d7faa76f8e23e03.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "ef246ba3978a87d0",
+        "name" : "Response",
+        "source" : "ef246ba3978a87d0.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements",
+      "time" : {
+        "start" : 1592759408515,
+        "stop" : 1592759408532,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b94aacce61e3541f",
+        "name" : "Request",
+        "source" : "b94aacce61e3541f.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "a10676a477f0cc7",
+        "name" : "Response",
+        "source" : "a10676a477f0cc7.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "testClass",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "testMethod",
+    "value" : "Set to opacity: 0; Still exists in DOM return true"
+  }, {
+    "name" : "package",
+    "value" : "Test whether hidden elements exist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91bf8c7fd6bacedb.json",
+  "parameterValues" : [ "chrome" ]
+}
