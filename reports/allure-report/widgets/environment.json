@@ -1,7 +1,0 @@
-[ {
-  "values" : [ "{\"maxInstances\":5,\"browserName\":\"chrome\"}" ],
-  "name" : "capabilities"
-}, {
-  "values" : [ "[\"/Users/sysadmin/automation-testing-projects/tests/09-verify-elements.js\"]" ],
-  "name" : "spec files"
-} ]

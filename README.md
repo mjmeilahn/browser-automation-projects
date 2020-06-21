@@ -1,5 +1,4 @@
 # Automation Testing Projects
 
-Jenkins: brew services start jenkins-lts
-Generate Allure in /reports PATH: allure generate {path} --clean
-Open Allure in /reports PATH: allure open
+1. Jenkins: brew services start jenkins-lts
+2. Generate & Open Allure in /reports: allure generate {path} --clean && allure open
