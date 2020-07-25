@@ -1,145 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Test_whether_hidden_elements_exist" timestamp="2020-06-21T10:10:06" time="2.385" tests="12" failures="0" errors="0" skipped="0">
+  <testsuite name="Test_whether_hidden_elements_exist" timestamp="2020-07-24T17:15:20" time="4.655" tests="12" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="a2de620649f78fc731286776df4a8517"/>
       <property name="suiteName" value="Test whether hidden elements exist"/>
       <property name="capabilities" value="chrome"/>
       <property name="file" value="./tests/09-verify-elements.js"/>
     </properties>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_display_none_Still_exists_in_DOM_return_true" time="1.54">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_display_none_Still_exists_in_DOM_return_true" time="3.518">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"id","value":"not-displayed"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[{"ELEMENT":"0.3291273421539449-1"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"id","value":"not-displayed"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[{"ELEMENT":"0.38680853795686976-1"}]}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_visibility_hidden_Still_exists_in_DOM_return_true" time="0.077">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_visibility_hidden_Still_exists_in_DOM_return_true" time="0.086">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"id","value":"visibility-hidden"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[{"ELEMENT":"0.3642169459595481-1"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"id","value":"visibility-hidden"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[{"ELEMENT":"0.679738391426383-1"}]}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_opacity_0_Still_exists_in_DOM_return_true" time="0.067">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Set_to_opacity_0_Still_exists_in_DOM_return_true" time="0.087">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"id","value":"zero-opacity"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[{"ELEMENT":"0.6870751070425689-1"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"id","value":"zero-opacity"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[{"ELEMENT":"0.9727815914745988-1"}]}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Header_text_always_visible_should_return_true" time="0.062">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Header_text_always_visible_should_return_true" time="0.078">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"css selector","value":"h1"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[{"ELEMENT":"0.6448488507132022-1"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"css selector","value":"h1"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[{"ELEMENT":"0.680792442599579-1"}]}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="No_such_element_should_return_false" time="0.065">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="No_such_element_should_return_false" time="0.142">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"id","value":"no-such-element"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"id","value":"no-such-element"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[]}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_display_none" time="0.109">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_display_none" time="0.141">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"id","value":"not-displayed"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[{"ELEMENT":"0.44648783187178953-1"}]}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/element/0.44648783187178953-1/displayed - {}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":false}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"id","value":"not-displayed"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[{"ELEMENT":"0.3927960750449542-1"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/element/0.3927960750449542-1/displayed - {}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":false}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_visibility_hidden" time="0.077">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_visibility_hidden" time="0.118">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"id","value":"visibility-hidden"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[{"ELEMENT":"0.4123112998807912-1"}]}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/element/0.4123112998807912-1/displayed - {}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":false}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"id","value":"visibility-hidden"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[{"ELEMENT":"0.200177332034988-1"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/element/0.200177332034988-1/displayed - {}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":false}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_opacity_0" time="0.073">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Should_be_false_set_to_opacity_0" time="0.116">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"id","value":"zero-opacity"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[{"ELEMENT":"0.49525831211600546-1"}]}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/element/0.49525831211600546-1/displayed - {}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":false}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"id","value":"zero-opacity"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[{"ELEMENT":"0.4476465500943694-1"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/element/0.4476465500943694-1/displayed - {}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":false}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Header_text_always_visible_should_return_true" time="0.077">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="Header_text_always_visible_should_return_true" time="0.113">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"css selector","value":"h1"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[{"ELEMENT":"0.9474702793303096-1"}]}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/element/0.9474702793303096-1/displayed - {}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"css selector","value":"h1"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[{"ELEMENT":"0.15340468515922923-1"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/element/0.15340468515922923-1/displayed - {}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":true}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="No_such_element_should_return_false" time="0.067">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="No_such_element_should_return_false" time="0.076">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/elements - {"using":"id","value":"no-such-element"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/elements - {"using":"id","value":"no-such-element"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[]}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="should_not_be_visible_within_current_viewport" time="0.074">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="should_not_be_visible_within_current_viewport" time="0.095">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/execute - {"script":"return !!document.evaluate;","args":[]}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":true}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/execute - {"script":"return (function executeClientSide(fn, sArr, args) {\n var cb = arguments[arguments.length - 1];\n var i = 0;\n var sArgs = [];\n var use, value, xp, cs, tn, res, j, arg;\n\n if (typeof document.querySelect ... (2627 more bytes)","args":[]}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[false]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/execute - {"script":"return !!document.evaluate;","args":[]}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/execute - {"script":"return (function executeClientSide(fn, sArr, args) {\n var cb = arguments[arguments.length - 1];\n var i = 0;\n var sArgs = [];\n var use, value, xp, cs, tn, res, j, arg;\n\n if (typeof document.querySelect ... (2627 more bytes)","args":[]}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[false]}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="should_be_visible_within_current_viewport" time="0.092">
+    <testcase classname="chrome.Test_whether_hidden_elements_exist" name="should_be_visible_within_current_viewport" time="0.079">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/execute - {"script":"return !!document.evaluate;","args":[]}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":true}
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/execute - {"script":"return (function executeClientSide(fn, sArr, args) {\n var cb = arguments[arguments.length - 1];\n var i = 0;\n var sArgs = [];\n var use, value, xp, cs, tn, res, j, arg;\n\n if (typeof document.querySelect ... (2626 more bytes)","args":[]}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":[true]}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc/screenshot - {}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/url - {"url":"http://www.webdriveruniversity.com/Hidden-Elements/index.html"}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/execute - {"script":"return !!document.evaluate;","args":[]}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/execute - {"script":"return (function executeClientSide(fn, sArr, args) {\n var cb = arguments[arguments.length - 1];\n var i = 0;\n var sArgs = [];\n var use, value, xp, cs, tn, res, j, arg;\n\n if (typeof document.querySelect ... (2626 more bytes)","args":[]}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":[true]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c/screenshot - {}
 RESULT: null
-COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/11eff67cb0e33331f99f0514308035fc - {}
-RESULT: {"sessionId":"11eff67cb0e33331f99f0514308035fc","status":0,"value":null}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/b4d4fd251d0b837db8a63f31ecd0951c - {}
+RESULT: {"sessionId":"b4d4fd251d0b837db8a63f31ecd0951c","status":0,"value":null}
 ]]>
       </system-out>
     </testcase>
